@@ -9,7 +9,7 @@ This project is a cryptocurrency tracker built with Next.js, TypeScript, and Ant
 - Sorting by symbol or name
 - Favorite toggle for each cryptocurrency
 - Persistent favorites using local storage
-- Details page for each cryptocurrency having a status for the info according to the timestamp.
+- Details page for each cryptocurrency having a status for the info which can be refreshed, similar to the table component where the data is fetched every 10 seconds, in this case it will show "Outdated" after 10 seconds.
 
 ## Getting Started
 
@@ -76,10 +76,6 @@ This project is a cryptocurrency tracker built with Next.js, TypeScript, and Ant
 
 - **CryptoCurrencyDetails.tsx:**
   Renders detailed information about a specific cryptocurrency.
-
-```
-
-```
 
 ## Testing
 
