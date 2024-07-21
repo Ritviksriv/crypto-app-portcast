@@ -1,6 +1,18 @@
-import "@/styles/globals.css";
+import React from "react";
+import { ConfigProvider } from "antd";
 import type { AppProps } from "next/app";
+import "../styles/globals.css";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
-}
+const App = ({ Component, pageProps }: AppProps) => (
+  <ConfigProvider
+    theme={{
+      token: {
+        fontFamily: "Poppins",
+      },
+    }}
+  >
+    <Component {...pageProps} />
+  </ConfigProvider>
+);
+
+export default App;

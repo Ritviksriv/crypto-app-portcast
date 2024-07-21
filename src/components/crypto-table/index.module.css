@@ -1,0 +1,8 @@
+.table-styles th {
+  font-weight: 500 !important;
+  font-size: 15px;
+}
+
+.table-styles {
+  width: 100%;
+}
