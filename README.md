@@ -80,3 +80,13 @@ This project is a cryptocurrency tracker built with Next.js, TypeScript, and Ant
 ```
 
 ```
+
+## Testing
+
+### Running Tests
+
+To run tests, use the following command:
+
+```sh
+npm test
+```
