@@ -50,9 +50,6 @@ const CryptoCurrencyDetails: React.FC<CryptoCurrencyDetailsProps> = ({
         </div>
         <div
           className={styles["header-layout"]}
-          onClick={() => {
-            router.reload();
-          }}
         >
           <p>
             Status: <b>{status}</b>
@@ -61,6 +58,9 @@ const CryptoCurrencyDetails: React.FC<CryptoCurrencyDetailsProps> = ({
             style={{
               cursor: "pointer",
               visibility: status === "Outdated" ? "visible" : "hidden",
+            }}
+            onClick={() => {
+              router.reload();
             }}
           />
         </div>
