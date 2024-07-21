@@ -24,7 +24,7 @@ This project is a cryptocurrency tracker built with Next.js, TypeScript, and Ant
 
    ```sh
    git clone <repository_url>
-   cd my-crypto-app
+   cd portcast-crypto-app
    ```
 
 2. **Install dependencies:**
