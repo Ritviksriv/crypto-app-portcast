@@ -15,14 +15,8 @@
 
 .header {
   display: flex;
-  justify-content: space-around;
-  gap: 80px;
+  justify-content: space-between;
   border-bottom: 1px solid #dddd;
   width: 100%;
   align-items: center;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
 }
